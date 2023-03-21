@@ -1805,7 +1805,7 @@ MonoBehaviour:
   GameSeconds: 0
   GameMinutes: 0
   TextTimer: {fileID: 1587378611}
-  timeStart: 20
+  timeStart: 80
 --- !u!114 &1587378611
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1866,6 +1866,7 @@ MonoBehaviour:
   PlayerTrackingMaxX: 0
   Goal: {fileID: 738293031}
   ButtonRetry: {fileID: 183401100}
+  ButtonNextLevel: {fileID: 0}
   TextWon: {fileID: 1998683727}
   TextLost: {fileID: 1700855509}
   TextPaused: {fileID: 604360709}

@@ -1692,7 +1692,7 @@ MonoBehaviour:
   GameSeconds: 0
   GameMinutes: 0
   TextTimer: {fileID: 1587378611}
-  timeStart: 20
+  timeStart: 60
 --- !u!114 &1587378611
 MonoBehaviour:
   m_ObjectHideFlags: 0
