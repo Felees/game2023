@@ -16,6 +16,7 @@ public class Game : MonoBehaviour
     public Transform Goal;
 
     public GameObject ButtonRetry;
+    public GameObject ButtonNextLevel;
     public GameObject TextWon;
     public GameObject TextLost;
     public GameObject TextPaused;
@@ -114,7 +115,7 @@ public class Game : MonoBehaviour
     {
         GameOver();
         TextWon.SetActive(true);
-        ButtonRetry.SetActive(true);
+        ButtonNextLevel.SetActive(true);
     }
 
     public void Lose()
@@ -135,5 +136,15 @@ public class Game : MonoBehaviour
         PauseGame(false);
         var level = SceneManager.GetActiveScene().name;
         SceneManager.LoadScene(level);
+    }
+    public void Second_Level()
+    {
+        SceneManager.LoadScene(1);
+        Time.timeScale = 1f;
+    }
+    public void Third_Level()
+    {
+        SceneManager.LoadScene(2);
+        Time.timeScale = 1f;
     }
 }
